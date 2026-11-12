@@ -1,0 +1,10 @@
+{
+  "name": "evflow",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm --prefix backend install",
+    "start": "cd backend && node src/server.js",
+    "dev": "cd backend && node --watch src/server.js"
+  },
+  "engines": { "node": ">=18" }
+}
